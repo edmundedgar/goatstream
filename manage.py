@@ -51,5 +51,4 @@ class GoatHTTPRequestHandler(BaseHTTPRequestHandler):
 
 httpd = HTTPServer(('0.0.0.0', 8000), GoatHTTPRequestHandler)
 httpd.serve_forever()
-import subprocess
 
