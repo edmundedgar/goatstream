@@ -19,5 +19,5 @@ Steps
 * You should be able to start and stop the stream with `sudo systemctl start goatstream`
 * Add to sudoers: `goatstream ALL=(ALL) NOPASSWD: /home/goatstream/start.sh` and `goatstream ALL=(ALL) NOPASSWD: /home/goatstream/stop.sh`
 * Make sure the goatstream user can to `sudo systemctl start goatstream` and `sudo systemctl start goatstream` without a password
-* Start the goat management web UI with sudo systemctl start goatmanager`
-* You should now be able to start and stop the stream to youtube at http://your_ip:8000
+* Start the goat management web UI with `sudo systemctl start goatmanager`
+* You should now be able to start and stop the stream to youtube at `http://your_ip:8000`
