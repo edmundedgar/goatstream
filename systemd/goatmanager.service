@@ -1,0 +1,12 @@
+[Unit]
+Description=Goat Manager Website
+
+[Service]
+Type=simple
+User=goatstream
+Restart=always
+RestartSec=12
+ExecStart=/usr/bin/python3 /home/goatstream/manage.py
+
+[Install]
+WantedBy=default.target
